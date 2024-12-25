@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color-empty {
+  fill: #000000; /* Neutral gray for no commits */
+  stroke: #000000; /* Ensure border matches no-commit color */
+  color: #000000;
+  stroke: #000000;
+  stroke-width: 0.005px;
+  background-color: #000000;
+}
+
+.color-scale-1 {
+  fill: #5d1e09; /* Very light green for minimal commits */
+  stroke: #5d1e09; /* Ensure border matches */
+  stroke-width: 0.005px;
+}
+
+.color-scale-2 {
+  fill: #a75b35; /* Light green for low commits */
+  stroke: #a75b35;
+  stroke-width: 0.005px;
+}
+
+.color-scale-3 {
+  fill: #f37b34; /* Medium green for medium commits */
+  stroke: #f37b34;
+  stroke-width: 0.005px;
+}
+
+.color-scale-4 {
+  fill: #f3e78b; /* Dark green for high commits */
+  stroke: #f3e78b;
+  stroke-width: 0.005px;
+}
+
+.color-scale-69 {
+  fill: #343434; /* Dark green for high commits */
+  stroke: #10b981;
+  border-radius: 20%;
+  stroke-width: 0.005px;
+}
